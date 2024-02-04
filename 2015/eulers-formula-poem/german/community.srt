@@ -16,11 +16,11 @@ Wer sich dieses Video anschaut, gehört wahrscheinlich zu einer dieser drei Kate
 
 5
 00:00:17,099 --> 00:00:21,310
-1) Du weißt, was jeder Term bedeutet, aber die gesamte Aussage erscheint sinnlos.
+1) Du weißt, was jeder Term einzeln bedeutet, aber die Gleichung erscheint sinnlos.
 
 6
 00:00:21,310 --> 00:00:25,699
-2) Du hattest das Glück zu lernen, was es bedeutet und hast in der Analysis Vorlesung eine lange Formel gesehen,
+2) Du weißt bereits, was es bedeutet, und kennst aus der Analysis-Vorlesung eine lange Formel,
 
 7
 00:00:25,699 --> 00:00:27,210
@@ -28,19 +28,19 @@ die erklärt, warum es funktioniert
 
 8
 00:00:27,210 --> 00:00:31,779
-aber es fühlt sich trotzdem an wie schwarze Magie, oder 3) dir ist nicht wirklich klar,
+aber es fühlt sich trotzdem wie Zauberei an, oder 3) du weißt nicht wirklich,
 
 9
 00:00:31,779 --> 00:00:33,100
-was die einzelnen Terme genau bedeuten
+was die einzelnen Terme genau bedeuten.
 
 10
 00:00:33,100 --> 00:00:37,000
-Die die in die letzte Kategorie gehören, haben wahrscheinlich die beste Ausgangsposition, um zu verstehen
+Die, die zur letzten Kategorie gehören, haben wahrscheinlich die beste Ausgangsposition, um zu verstehen
 
 11
 00:00:37,000 --> 00:00:37,910
-was ich gleich erkläre
+was ich gleich erkläre,
 
 12
 00:00:37,910 --> 00:00:41,840
@@ -52,7 +52,7 @@ eine offene Einstellung zu unserer Vorstellung von Zahlen.
 
 14
 00:00:44,620 --> 00:00:48,210
-Haben wir das getan, wird uns klar, was die Gleichung bedeutet
+Wenn wir diese Vorstellung haben, wird uns klar, was die Gleichung bedeutet
 
 15
 00:00:48,210 --> 00:00:51,640
@@ -60,11 +60,11 @@ warum sie stimmt und am allerwichtigsten, wieso sie intuitiv ist.
 
 16
 00:00:51,640 --> 00:00:54,770
-Zuerst müssen wir etwas klarstellen:
+Zuerst müssen wir aber etwas klarstellen:
 
 17
 00:00:54,770 --> 00:00:58,170
-Was wir als e hoch x schreiben ist kein Potenzieren
+Wenn wir e hoch x schreiben ist kein wiederholtes Multiplizieren,
 
 18
 00:00:58,170 --> 00:01:02,449
@@ -76,15 +76,15 @@ Und selbst dann müssten wir zuerst die Zahl e definieren. Um zu verstehen,
 
 20
 00:01:06,080 --> 00:01:07,300
-was diese Funktion tatsächlich tut,
+was diese Funktion wirklich tut,
 
 21
 00:01:07,300 --> 00:01:11,230
-müssen wir zunächst lernen Zahlen als Aktionen zu verstehen
+müssen wir zunächst lernen, Zahlen als Aktionen zu verstehen
 
 22
 00:01:11,230 --> 00:01:14,410
-Uns wird zuerst beigebracht, dass Zahlen etwas zum Zählen sind
+Bereits als Kind lernen wir, dass Zahlen etwas zum Zählen sind
 
 23
 00:01:14,410 --> 00:01:21,410
@@ -96,7 +96,7 @@ Aber diese Art des Denkens wird schwierig, wenn wir über gebrochene Zahlen spre
 
 25
 00:01:25,250 --> 00:01:28,940
-sehr schwierig, wenn es um irrationale Zahlen geht und absolut sinnlos,
+sehr schwierig, wenn es um irrationale Zahlen geht und komplett sinnlos,
 
 26
 00:01:28,940 --> 00:01:31,480
@@ -108,7 +108,7 @@ Stattdessen sollten wir uns Zahlen so vorstellen, als wären sie gleichzeitig dr
 
 28
 00:01:35,600 --> 00:01:40,800
-Ein punkt auf einer unendlichen langen Linie, eine Aktion die diesen Punkt auf der Linie verschiebt,
+Ein Punkt auf einer unendlichen langen Linie, eine Aktion, die diesen Punkt auf der Linie verschiebt,
 
 29
 00:01:40,810 --> 00:01:44,510
@@ -116,27 +116,27 @@ in diesem Fall nennen wir sie einen "Addierer", und eine Aktion, die die Linie d
 
 30
 00:01:44,510 --> 00:01:48,860
-in diesem Fall nennen wir sie einen "Multiplizierer". Wenn wir uns Zahlen als "Addierer" vorstellen,
+in diesem Fall nennen wir sie einen "Multiplizierer". Wenn wir uns eine Zahl als "Addierer" vorstellen,
 
 31
 00:01:48,860 --> 00:01:52,080
-könnten wir uns vorstellen sie auf alle Punkte der Linie gleichzeitig draufzurechnen.
+könnten wir uns vorstellen, sie zu allen Punkten der Linie gleichzeitig dazuzurechnen.
 
 32
 00:01:52,080 --> 00:01:55,540
-Stattdessen müssen wir vergessen, was wir schon über Addition wissen,
+Es ist aber besser, stattdessen erstmal alles zu vergessen, was du über Addition weißt,
 
 33
 00:01:55,540 --> 00:01:57,520
-um uns eine neue Vorstellung zu machen.
+damit du es dir ganz anders vorstellen kannst.
 
 34
 00:01:57,520 --> 00:02:00,940
-Stellt euch Addierer nur als ein bloßes Verschieben der Linie mit folgender Regel vor:
+Stellt euch einen Addierer nur als ein bloßes Verschieben der Linie mit folgender Regel vor:
 
 35
 00:02:00,940 --> 00:02:04,890
-Du verschiebst, bis der Punkt, der zur Null gehört auf dem Punkt liegt,
+Du verschiebst die Linie, bis der Punkt, der zu Null gehört auf dem Punkt liegt,
 
 36
 00:02:04,890 --> 00:02:06,450
@@ -144,7 +144,7 @@ der zum Addierer selbst gehört.
 
 37
 00:02:06,450 --> 00:02:10,700
-Wenn wir nacheinander zwei Addierer anwenden, ist der Effekt der gleiche, als würden wir einen anderen Addierer anwenden.
+Wenn wir nacheinander zwei Addierer verwenden, ist der Effekt der gleiche, als würden wir einen einzigen anderen Addierer nutzen.
 
 38
 00:02:10,750 --> 00:02:13,959
@@ -152,19 +152,19 @@ Diesen definieren wir als deren Summe. Genauso
 
 39
 00:02:13,959 --> 00:02:16,890
-vergesst alles was ihr schon über Multiplikation wisst und stellt euch Multiplikatoren
+solltest du alles vergessen, was du über Multiplikation weißt und dir stattdessen Multiplikatoren
 
 40
 00:02:16,890 --> 00:02:19,500
-einfach als eine Art, die Linie zu dehnen vor.
+einfach als eine Art vorstellen, die Linie zu dehnen.
 
 41
 00:02:19,500 --> 00:02:24,070
-Jetzt ist die Regel, die Null auf ihrem Platz zu fixieren und den Punkt, der zur
+Jetzt funktioniert es so, die Null auf ihrem Platz zu fixieren und den Punkt, der zur
 
 42
 00:02:24,070 --> 00:02:28,019
-1 gehört dahin zu bewegen, wo vorher der Multiplikator war
+Eins gehört, dahin zu bewegen, wo vorher der Multiplikator war
 
 43
 00:02:28,019 --> 00:02:31,549
@@ -204,7 +204,7 @@ e hoch (x plus y) ist gleich e hoch x mal e hoch y
 
 52
 00:02:58,780 --> 00:03:02,310
-Wenn e hoch x als eine wiederholte Multiplikation verstanden werden kann,
+Wenn e hoch x als eine wiederholte Multiplikation verstanden werden würde,
 
 53
 00:03:02,310 --> 00:03:03,410
@@ -292,7 +292,7 @@ ein Addierer, der die Ebene verschiebt, sodass der Nullpunkt
 
 74
 00:04:08,350 --> 00:04:12,830
-auf dem Punkt landet, an dem die Zahl vorher war und ein Multiplikator, der die Null festhält
+auf dem Punkt landet, an dem die Zahl vorher war, und ein Multiplikator, der die Null festhält
 
 75
 00:04:12,830 --> 00:04:16,250
@@ -308,7 +308,7 @@ Dabei darf jetzt auch gedreht werden, während gedehnt und geschoben wird.
 
 78
 00:04:21,709 --> 00:04:25,800
-Alle Aktionen der reellen Zahlen gelten weiter - hin. und her Verschieben und Dehnen -
+Alle Aktionen der reellen Zahlen gelten weiter - hin und her Verschieben und Dehnen -
 
 79
 00:04:25,850 --> 00:04:30,730
@@ -320,7 +320,7 @@ Zum Beispiel können wir diesen Punkt hier nehmen. Wir nennen ihn i. Als Addiere
 
 81
 00:04:34,580 --> 00:04:39,200
-schiebt es die Ebene hoch und als Multiplizierer dreht es die Ebene um eine Vierteldrehung.
+schiebt er die Ebene hoch und als Multiplizierer dreht er die Ebene um eine Vierteldrehung.
 
 82
 00:04:39,260 --> 00:04:43,030
@@ -368,7 +368,7 @@ alle Punkte der vertikalen Linie nimmt,
 
 93
 00:05:18,010 --> 00:05:21,770
-die zu Addierern gerhören, die die Ebene rauf und runter schieben, und sie
+die zu Addierern gehören, die die Ebene rauf und runter schieben, und sie
 
 94
 00:05:21,770 --> 00:05:23,110
@@ -388,15 +388,15 @@ ist eine Linie um den Kreis zu wickeln - ohne Stauchen oder Strecken -
 
 98
 00:05:32,120 --> 00:05:35,900
-was bedeutet, dass sie die Lenge 2 Pi hat,
+was bedeutet, dass sie die Länge 2 Pi hat,
 
 99
 00:05:35,910 --> 00:05:40,200
-da per definitionem das das Verhältnis zwischen Umfang und Radius eines Kreises ist.
+da per Definitionem das das Verhältnis zwischen Umfang und Radius eines Kreises ist.
 
 100
 00:05:40,200 --> 00:05:45,150
-Das bedeutet, dass Pi nach oben gehen sich übersetzen lässt zu einmal halb um den Kreis gehen.
+Das bedeutet, dass Pi nach oben gehen sich übertragen lässt zu einmal halb um den Kreis gehen.
 
 101
 00:05:45,150 --> 00:05:48,350
